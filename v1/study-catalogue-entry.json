@@ -1,0 +1,18 @@
+{
+  "pack_id": "study-kjvstudy",
+  "kind": "study",
+  "version": "2026.10.8",
+  "schema_version": 1,
+  "title": "Stories, topics, study guides and reading plans",
+  "licence": "ISC (kjvstudy.org)",
+  "translation_code": null,
+  "base_translation": "KJV",
+  "language": "en",
+  "preinstalled": true,
+  "file": "study-kjvstudy-2026.10.8.sqlite.gz",
+  "compression": "gzip",
+  "size_bytes": 1012636,
+  "installed_size_bytes": 3129344,
+  "sha256": "59c9342c5cf0dd66dcbb04930742059c673b51a5c5630256a747b55936f846d8",
+  "sha256_download": "f09eb390bcc648e280d78e146904df7a302fd5668fccfa660354b84957f711b4"
+}
