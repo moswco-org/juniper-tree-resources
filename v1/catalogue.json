@@ -2,7 +2,7 @@
   "catalogue_version": 1,
   "schema_version": 1,
   "generated_at": "2026-10-03T23:49:33Z",
-  "base_url": "https://raw.githubusercontent.com/MrEromz/juniper-tree-resources/main/packs/v1/",
+  "base_url": "https://raw.githubusercontent.com/moswco-org/juniper-tree-resources/main/v1/",
   "default_translation": "TKJU",
   "packs": [
     {
@@ -15,7 +15,7 @@
       "translation_code": null,
       "base_translation": null,
       "language": "en",
-      "preinstalled": false,
+      "preinstalled": true,
       "file": "xref-openbible-2026.10.1.sqlite.gz",
       "compression": "gzip",
       "size_bytes": 5817621,
@@ -24,9 +24,27 @@
       "sha256_download": "20c4cca11667e969f8010b9284f1682b57e8ce778664eb1b07130b95d8c14829"
     },
     {
-      "pack_id": "bible-bsb",
+      "pack_id": "bible-tkju",
       "kind": "translation",
       "version": "2026.10.3",
+      "schema_version": 1,
+      "title": "The Holy Bible (TKJU)",
+      "licence": "free-noncommercial-unaltered",
+      "translation_code": "TKJU",
+      "base_translation": null,
+      "language": "en",
+      "preinstalled": false,
+      "file": "bible-tkju-2026.10.3.sqlite.gz",
+      "compression": "gzip",
+      "size_bytes": 14275551,
+      "installed_size_bytes": 37785600,
+      "sha256": "39e6d6130f2147f409cdd6920fee3622222a2ac6720412e3563ef1291326abf5",
+      "sha256_download": "f23103d002d0a9bfa6b307d2b14951852596145f7992e9c30f93417a5381fb66"
+    },
+    {
+      "pack_id": "bible-bsb",
+      "kind": "translation",
+      "version": "2026.10.4",
       "schema_version": 1,
       "title": "Berean Standard Bible (BSB)",
       "licence": "public-domain (text); CC BY-SA (lexicon)",
@@ -34,17 +52,17 @@
       "base_translation": null,
       "language": "en",
       "preinstalled": false,
-      "file": "bible-bsb-2026.10.3.sqlite.gz",
+      "file": "bible-bsb-2026.10.4.sqlite.gz",
       "compression": "gzip",
-      "size_bytes": 15520334,
-      "installed_size_bytes": 39514112,
-      "sha256": "ca64f2ac42ab840d705b16ff8bea038851aab9ed9f3e45cc48a1e98d3b511916",
-      "sha256_download": "da0e80ff30f66bd2083312b36a47bde25a09e44b6adf53e114322020a8621b91"
+      "size_bytes": 14037708,
+      "installed_size_bytes": 34930688,
+      "sha256": "144401ba8d37a501892c692c35e64e577838ac4cd93b26bebb86addc1b75dffe",
+      "sha256_download": "8d72f525efa35f7df1d5097b2675103cd22d0ac1063dd5c1171f22481e432005"
     },
     {
       "pack_id": "bible-kjv",
       "kind": "translation",
-      "version": "2026.10.2",
+      "version": "2026.10.3",
       "schema_version": 1,
       "title": "King James Version (KJV)",
       "licence": "public-domain (text); CC BY-SA (lexicon)",
@@ -52,12 +70,12 @@
       "base_translation": null,
       "language": "en",
       "preinstalled": false,
-      "file": "bible-kjv-2026.10.2.sqlite.gz",
+      "file": "bible-kjv-2026.10.3.sqlite.gz",
       "compression": "gzip",
-      "size_bytes": 15409065,
-      "installed_size_bytes": 39251968,
-      "sha256": "b521578dc0f9a84dbb4287a69bc509c2408e2678a8fb7e676cae65ee8d493449",
-      "sha256_download": "dfbeba1c01103c4dc5b78f67e72d9bc581827aa4b0962e45026092c4888080cf"
+      "size_bytes": 14186989,
+      "installed_size_bytes": 35835904,
+      "sha256": "e76de0dc451c3218c2a2d988335fbde523074726668a7360a3f7351b561934a8",
+      "sha256_download": "4b2a057ba610025980bf047a6fe593554ce672431af22006e6937c8ad3fc27f7"
     },
     {
       "pack_id": "commentary-ai",
@@ -80,7 +98,7 @@
     {
       "pack_id": "study-kjvstudy",
       "kind": "study",
-      "version": "2026.10.7",
+      "version": "2026.10.8",
       "schema_version": 1,
       "title": "Stories, topics, study guides and reading plans",
       "licence": "ISC (kjvstudy.org)",
@@ -88,12 +106,12 @@
       "base_translation": "KJV",
       "language": "en",
       "preinstalled": true,
-      "file": "study-kjvstudy-2026.10.7.sqlite.gz",
+      "file": "study-kjvstudy-2026.10.8.sqlite.gz",
       "compression": "gzip",
-      "size_bytes": 1012665,
+      "size_bytes": 1012636,
       "installed_size_bytes": 3129344,
-      "sha256": "01f8d900cff9cf185ff55a10d59b245cbcbea223fe2980cd39ed4cc62744b97d",
-      "sha256_download": "fb29d1f18defe245404343d3e01195b4a7431f6680766ddb49834cf96a49ced4"
+      "sha256": "59c9342c5cf0dd66dcbb04930742059c673b51a5c5630256a747b55936f846d8",
+      "sha256_download": "f09eb390bcc648e280d78e146904df7a302fd5668fccfa660354b84957f711b4"
     }
   ]
 }
